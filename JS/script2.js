@@ -9,6 +9,7 @@ var son = document.getElementById("audio");
 
 window.setTimeout(a, 1)
 function a() {
+    console.log();
     dialogue.innerHTML = " "
     do { 
     var nom = prompt (" Donner le nom de votre personnage ")
@@ -11352,8 +11353,8 @@ function a() {
                                                                                     slt.style.backgroundImage = "url(image/vignette/vignetteDeath.png)"
                                                                                     dialogue.innerHTML= " <b> Commandant Death trooper </b> : Pitié ... non, non NON  ... " 
                                                                                     num.style.backgroundImage = "url(image/hangar/hangarexec.png)";
-                                                                                    window.setTimeout(d25, 7000)
-                                                                                    function d25() {
+                                                                                    window.setTimeout(d27, 7000)
+                                                                                    function d27() {
                                                                                     music2.innerHTML = "";
                                                                                     bruit.innerHTML = "<audio autoplay  ><source src='musique/bruit'></audio>" 
                                                                                     num.style.backgroundImage = "url(image/hangar/HangarBatrophée2.png)";                                                                                                                                   
